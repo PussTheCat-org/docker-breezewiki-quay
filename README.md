@@ -9,5 +9,7 @@ This image mostly exist for the [PussTheCat.org](https://pussthecat.org/) instan
 ## Usage:
 
 - Download (or copy the content of) the `docker-compose.yml` 
-- Move the docker-compose.yml file to the folder you want
+- Download (or copy the content of) the config.ini from this repository
+- Customize the config.js file how you want (following https://docs.breezewiki.com/Configuration.html )
+- Move both files to the folder you want
 - `docker-compose up -d`
