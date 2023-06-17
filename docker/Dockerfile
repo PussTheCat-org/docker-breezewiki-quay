@@ -1,6 +1,6 @@
 FROM racket/racket:8.9
 WORKDIR /app
-RUN apt update -y && apt upgrade -y \
+RUN apt update -y \
     && apt install -y --no-install-recommends git \
     && apt autoclean -y \
     && apt autoremove -y \
