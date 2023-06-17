@@ -1,4 +1,4 @@
-FROM racket/racket:8.8
+FROM racket/racket:8.9
 WORKDIR /app
 RUN apt update -y && apt upgrade -y \
     && apt install -y --no-install-recommends git \
