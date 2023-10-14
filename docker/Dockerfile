@@ -1,6 +1,7 @@
 FROM debian:stable-slim
 WORKDIR /app
-RUN apt install -y --no-install-recommends git racket ca-certificates curl sqlite3 \
+RUN apt update
+    && apt install -y --no-install-recommends git racket ca-certificates curl sqlite3 \
     && apt autoclean -y \
     && apt autoremove -y \
     && rm -rf /var/lib/apt/lists/* \
