@@ -1,6 +1,6 @@
-FROM racket/racket:8.9
+FROM debian:stable-slim
 WORKDIR /app
-RUN apt install -y --no-install-recommends git \
+RUN apt install -y --no-install-recommends git racket ca-certificates curl sqlite3 \
     && apt autoclean -y \
     && apt autoremove -y \
     && rm -rf /var/lib/apt/lists/* \

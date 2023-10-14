@@ -41,7 +41,7 @@ jobs:
       with:
         context: .
         file: docker/Dockerfile
-        platforms: linux/amd64 #,linux/arm64/v8
+        platforms: linux/amd64,linux/arm64/v8
         labels: quay.expires-after=24w
         push: true
         tags: quay.io/pussthecatorg/breezewiki:latest
