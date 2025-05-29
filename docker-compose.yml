@@ -2,6 +2,14 @@ services:
 
   breezewiki:
     container_name: breezewiki
+    environment: # uncomment any of the following options if you want to use them
+      - bw_bind_host=0.0.0.0
+      - bw_port=10416
+      #- bw_canonical_origin=
+      #- bw_debug=false
+      #- bw_feature_search_suggestions=true
+      #- bw_log_outgoing=false
+      #- bw_strict_proxy=true
     image: quay.io/pussthecatorg/breezewiki:latest
     restart: unless-stopped
     ports:
