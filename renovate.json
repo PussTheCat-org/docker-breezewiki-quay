@@ -1,0 +1,9 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends": [
+    "config:recommended",
+    "local>PussTheCat-org/docker-breezewiki-quay//.github/renovate/ci.json",
+    "local>PussTheCat-org/docker-breezewiki-quay//.github/renovate/docker.json",
+    "local>PussTheCat-org/docker-breezewiki-quay//.github/renovate/compose.json"
+  ]
+}

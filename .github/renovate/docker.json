@@ -1,0 +1,11 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "packageRules": [
+    {
+      "description": "Group Docker image updates from Dockerfile into a single PR",
+      "matchManagers": ["dockerfile"],
+      "groupName": "Docker images",
+      "separateMajorMinor": false
+    }
+  ]
+}
