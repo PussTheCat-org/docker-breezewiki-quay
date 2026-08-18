@@ -8,8 +8,8 @@ This image mostly exist for the [PussTheCat.org](https://pussthecat.org/) [insta
 
 ## Usage:
 
-- Download (or copy the content of) the `docker-compose.yml` 
-- Download (or copy the content of) the config.ini from this repository
-- Customize the config.ini file how you want (following https://docs.breezewiki.com/Configuration.html )
-- Move both files to the folder you want
+- Download (or copy the content of) the [`docker-compose.yml`](./docker-compose.yml). 
+- Download (or copy the content of) the [`config.ini` from this repository](./config.ini).
+- Customize the [config.ini file](https://docs.breezewiki.com/Configuration.html#(part._.Example)) how you want. You may also use [environment variables](https://docs.breezewiki.com/Configuration.html#(part._.Environment_variables)).
+- Move both files to the folder you want.
 - `docker-compose up -d`
